@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'thoughts.apps.ThoughtsConfig',
     'users.apps.UsersConfig',
+    'bootstrap3',
 ]
 
 MIDDLEWARE = [
