@@ -8,6 +8,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 # Create your views here.
 from .forms import LogoutForm
 
+
 def dashboard(request):
     return render(request, 'users/dashboard.html')
 
